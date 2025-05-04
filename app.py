@@ -22,7 +22,7 @@ if st.button("commencer"):
 if st.session_state.commencer:
     st.write("Pour cela, je peux te montrer quels facteurs agissent sur toi.")
 
-    option1 = st.selectbox("Si tu souhaites connaître un peu mieux ce qui peux agir sur toi alors continuons.", ["", "CONTINUER", "NE PAS CONTINUER"])
+    option1 = st.selectbox("Si tu souhaites connaître un peu mieux ce qui peut agir sur toi alors continuons.", ["", "CONTINUER", "NE PAS CONTINUER"])
 
     if option1 == "CONTINUER":
         st.write("Super ! Je vais maintenant te poser quelques questions pour mieux te connaître. Il me sera plus facile de te présenter ce qui peut t’impacter si je comprends mieux qui tu es.")
